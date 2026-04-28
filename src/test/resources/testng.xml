@@ -3,6 +3,7 @@
     <test name="Login and PHI table test">
         <classes>
             <class name="com.abbydemo.tests.LoginAndPhiTableTest"/>
+            <class name="com.abbydemo.tests.UiVsDbPhiDiffTest"/>
         </classes>
     </test>
 </suite>

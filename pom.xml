@@ -18,6 +18,10 @@
         <webdrivermanager.version>5.8.0</webdrivermanager.version>
         <mysql.version>9.3.0</mysql.version>
         <base.url>https://dev.example.com</base.url>
+        <ui.username>admin</ui.username>
+        <ui.password>admin123</ui.password>
+        <db.phi.query>SELECT id, description, timestamp, severity FROM phi_records</db.phi.query>
+        <ui.timestamp.format>yyyy-MM-dd HH:mm:ss</ui.timestamp.format>
         <db.url>jdbc:mysql://localhost:3306/phi_dev</db.url>
         <db.user>dev_user</db.user>
         <db.password>dev_password</db.password>
@@ -59,6 +63,10 @@
                     </suiteXmlFiles>
                     <systemPropertyVariables>
                         <base.url>${base.url}</base.url>
+                        <ui.username>${ui.username}</ui.username>
+                        <ui.password>${ui.password}</ui.password>
+                        <db.phi.query>${db.phi.query}</db.phi.query>
+                        <ui.timestamp.format>${ui.timestamp.format}</ui.timestamp.format>
                         <db.url>${db.url}</db.url>
                         <db.user>${db.user}</db.user>
                         <db.password>${db.password}</db.password>
