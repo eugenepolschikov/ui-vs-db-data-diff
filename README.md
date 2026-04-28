@@ -36,3 +36,6 @@ How to run by environment
 Dev: ```mvn test -Pdev```
 Stage: ```mvn test -Pstage```
 Prod: ```mvn test -Pprod```
+
+To ensure that build still pass w/o introducing breaking changes:
+```mvn -DskipTests compile```
