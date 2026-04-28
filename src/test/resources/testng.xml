@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Vs DB PHI Validation Suite" verbose="1">
+    <test name="Login and PHI table test">
+        <classes>
+            <class name="com.abbydemo.tests.LoginAndPhiTableTest"/>
+        </classes>
+    </test>
+</suite>
